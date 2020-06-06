@@ -15,3 +15,7 @@ for i in range(template.getNumPages()):
 
 	with open("watermarked_File.pdf","wb") as file:
 		output.write(file)
+
+print(80*"-")
+print("                               Thanks for using the tool")
+print(80*"-")
